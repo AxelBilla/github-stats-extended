@@ -5,7 +5,7 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["build/**"]
-      "inputs": ["$TURBO_DEFAULT$", ".env"] // Only the `build` task hash
+      "inputs": ["$TURBO_DEFAULT$", ".env"]
     },
     "lint": {
       "dependsOn": ["^build"]
